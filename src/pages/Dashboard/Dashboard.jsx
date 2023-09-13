@@ -1,11 +1,12 @@
-import SideNav from "../../components/SideNav"
+import DashboardLayout from "../../components/DashboardLayout";
+import Portfolio from "./components/Portfolio";
 
 const Dashboard = () => {
   return (
-    <div>
-        <SideNav />
-    </div>
-  )
-}
+    <DashboardLayout title="Dashbboard">
+      <Portfolio />
+    </DashboardLayout>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
