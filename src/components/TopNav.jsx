@@ -12,7 +12,7 @@ import { FaUserTie, FaBars } from "react-icons/fa";
 
 const TopNav = ({ title, onOpen }) => {
   return (
-    <Box px="4" bg="wihte">
+    <Box px="4" bg="white">
       <HStack h="16" justify="space-between" w="72.5rem" mx="auto">
         <Icon
           as={FaBars}
